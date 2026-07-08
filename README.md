@@ -23,7 +23,6 @@ A modern, high-conversion marketing website for **ApexRoofing**, a fictional (bu
 - [Deployment](#-deployment)
 - [SEO & Performance](#-seo--performance)
 - [Accessibility](#-accessibility)
-- [Roadmap / Future Enhancements](#-roadmap--future-enhancements)
 - [License](#-license)
 
 ---
