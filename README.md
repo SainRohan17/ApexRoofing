@@ -56,17 +56,17 @@ The site is purposefully **static-first** (no backend, no database) so it can be
 
 ## ✨ Key Features
 
-- 🎨 **Custom design system** — dark accent cards on a light page background, fully defined in [tailwind.config.ts](roofing-website/tailwind.config.ts:1).
-- 🧭 **Sticky pill-shaped navigation** with smooth scroll anchor links and a mobile slide-down menu ([Header.tsx](roofing-website/src/components/Header.tsx:1)).
-- 🏔 **Hero section** with a full-bleed roofer photo, headline, primary CTA, and 3 key-stat chips ([Hero.tsx](roofing-website/src/components/Hero.tsx:1)).
-- 🛡 **Why Choose Us** — three feature cards (Premium Materials, Fast Turnaround, Licensed & Insured) ([WhyChooseUs.tsx](roofing-website/src/components/WhyChooseUs.tsx:1)).
-- 🌪 **Process Visual** — full-width severe-weather imagery band ([ProcessVisual.tsx](roofing-website/src/components/ProcessVisual.tsx:1)).
-- 🏗 **Project Catalog** — visual grid of 4 roofing systems (Modern Slate, Classic Composite, Standing Seam Metal, Premium Asphalt) with square footage and starting prices ([ProjectCatalog.tsx](roofing-website/src/components/ProjectCatalog.tsx:1)).
-- 💳 **Financing & Payment Options** — alternating dark/light cards covering insurance claims, payment plans, free damage assessment, and 12-month interest-free financing ([Financing.tsx](roofing-website/src/components/Financing.tsx:1)).
-- 📋 **How It Works** — 3-step process (Inspection → Proposal → Installation) ([HowItWorks.tsx](roofing-website/src/components/HowItWorks.tsx:1)).
-- 📞 **Footer / Contact Section** — phone, email, address, callback email form, services & company link columns, social icons ([Footer.tsx](roofing-website/src/components/Footer.tsx:1)).
-- 🖼 **Optimized imagery** via `next/image` with explicit `sizes`, `priority` for the LCP image, and `fill` for aspect-ratio-locked cards.
-- ✨ **Micro-interactions** — group-hover lifts, image zoom, animated underlines, smooth scroll behavior.
+-  **Custom design system** — dark accent cards on a light page background, fully defined in [tailwind.config.ts](roofing-website/tailwind.config.ts:1).
+-  **Sticky pill-shaped navigation** with smooth scroll anchor links and a mobile slide-down menu ([Header.tsx](roofing-website/src/components/Header.tsx:1)).
+-  **Hero section** with a full-bleed roofer photo, headline, primary CTA, and 3 key-stat chips ([Hero.tsx](roofing-website/src/components/Hero.tsx:1)).
+-  **Why Choose Us** — three feature cards (Premium Materials, Fast Turnaround, Licensed & Insured) ([WhyChooseUs.tsx](roofing-website/src/components/WhyChooseUs.tsx:1)).
+-  **Process Visual** — full-width severe-weather imagery band ([ProcessVisual.tsx](roofing-website/src/components/ProcessVisual.tsx:1)).
+-  **Project Catalog** — visual grid of 4 roofing systems (Modern Slate, Classic Composite, Standing Seam Metal, Premium Asphalt) with square footage and starting prices ([ProjectCatalog.tsx](roofing-website/src/components/ProjectCatalog.tsx:1)).
+-  **Financing & Payment Options** — alternating dark/light cards covering insurance claims, payment plans, free damage assessment, and 12-month interest-free financing ([Financing.tsx](roofing-website/src/components/Financing.tsx:1)).
+-  **How It Works** — 3-step process (Inspection → Proposal → Installation) ([HowItWorks.tsx](roofing-website/src/components/HowItWorks.tsx:1)).
+-  **Footer / Contact Section** — phone, email, address, callback email form, services & company link columns, social icons ([Footer.tsx](roofing-website/src/components/Footer.tsx:1)).
+-  **Optimized imagery** via `next/image` with explicit `sizes`, `priority` for the LCP image, and `fill` for aspect-ratio-locked cards.
+-  **Micro-interactions** — group-hover lifts, image zoom, animated underlines, smooth scroll behavior.
 
 ---
 
@@ -249,10 +249,10 @@ Replace the images in `public/images/` keeping the same filenames, or update the
 
 Search-and-replace the following placeholders across the codebase:
 
-- 📞 Phone: `(800) 555-ROOF` and `tel:+18005557663`
-- ✉️ Email: `estimates@apexroofing.com`
-- 📍 Address: `1024 Ridge Line Blvd, Suite C, Phoenix, AZ 85016`
-- 🌐 Social: `https://instagram.com`, `https://facebook.com`, `https://linkedin.com`
+-  Phone: `(800) 555-ROOF` and `tel:+18005557663`
+-  Email: `estimates@apexroofing.com`
+-  Address: `1024 Ridge Line Blvd, Suite C, Phoenix, AZ 85016`
+-  Social: `https://instagram.com`, `https://facebook.com`, `https://linkedin.com`
 
 ---
 
@@ -300,24 +300,9 @@ Because the project is a standard Next.js 15 App Router app, it can also be depl
 
 ---
 
-## 🗺 Roadmap / Future Enhancements
-
-- [ ] **Dedicated Services section** anchored at `#services` (currently a placeholder nav target).
-- [ ] **Testimonials slider** with real Google / BBB reviews.
-- [ ] **Service area map** showing cities / ZIP codes covered.
-- [ ] **Project detail pages** (e.g. `/projects/modern-slate-shingle`) with photo galleries.
-- [ ] **Blog / Resources** for storm-damage prep, insurance claim tips, material comparisons.
-- [ ] **Real form backend** — wire the callback email field to Resend / SendGrid / HubSpot Forms / a serverless API route.
-- [ ] **CRM integration** — pipe leads to Salesforce, GoHighLevel, or JobNimbus.
-- [ ] **Schema.org `RoofingContractor`** structured data for rich local search results.
-- [ ] **Open Graph & Twitter card images** generated at build time.
-- [ ] **Analytics** — Vercel Analytics, Plausible, or Google Analytics 4.
-
----
-
 ## 📄 License
 
-This project is provided as a **portfolio / marketing template**. The fictional brand "ApexRoofing" and all phone numbers, email addresses, and physical addresses are placeholders. Feel free to fork, modify, and rebrand for your own roofing (or home-services) business.
+This project is provided as a **marketing template**. The fictional brand "ApexRoofing" and all phone numbers, email addresses, and physical addresses are placeholders. Feel free to fork, modify, and rebrand for your own roofing (or home-services) business.
 
 ---
 
